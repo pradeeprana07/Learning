@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Author from './Author.js';
 import User from './User.js';
+import Tut_10_jsx from  './Tut_10_jsx.js';
+import Tut_10_nojsx from './Tut_10_nojsx';
 
 function App() {
   // component inside component  or nested component
@@ -16,7 +18,8 @@ function App() {
       <Author />
       <User />
       <Apple/>
-
+      <Tut_10_jsx />
+      <Tut_10_nojsx />
       {/* we can call a nested componnent in one other way */}
       {Apple()} 
 
